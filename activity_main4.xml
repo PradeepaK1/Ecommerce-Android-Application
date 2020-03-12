@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingLeft="5dp"
+        android:paddingTop="2dp"
+        android:paddingRight="10dp"
+        tools:context=".Main4Activity">
+
+        <Button
+            android:id="@+id/bu"
+            android:layout_width="371dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:background="#DCDCDC"
+            android:padding="12dp"
+            android:text="Signup"
+            android:textColor="#008000" />
+        <EditText
+            android:id="@+id/input_email"
+            android:layout_width="406dp"
+            android:layout_height="69dp"
+            android:background="#F8F8FF"
+            android:hint="Email"
+            android:inputType="textEmailAddress" />
+        <EditText
+            android:id="@+id/input_password"
+            android:layout_width="406dp"
+            android:layout_height="76dp"
+            android:background="#F8F8FF"
+            android:hint="Password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/input_name"
+            android:layout_width="406dp"
+            android:layout_height="76dp"
+            android:background="#F8F8FF"
+            android:hint="User Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/mobile"
+            android:layout_width="406dp"
+            android:layout_height="85dp"
+            android:background="#F8F8FF"
+            android:hint="Mobile"
+            android:inputType="textEmailAddress" />
+        <Button
+            android:id="@+id/btn_signup"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:background="#008000"
+            android:padding="12dp"
+            android:text="Signup"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/login_page"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="24dp"
+            android:gravity="center"
+            android:text="Already a member? Login"
+            android:textSize="16dip" />
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone" />
+</android.support.design.widget.CoordinatorLayout>

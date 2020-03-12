@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:padding="5dp">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        android:orientation="vertical" >
+
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main13Activity"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Fill in your requirements, pay on delivery"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="#000"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:hint="Enter Name"
+        android:gravity="center"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phone_number"
+        android:hint="Enter Phone Number"
+        android:gravity="center"
+        android:layout_below="@+id/name"
+        android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mailId"
+                android:hint="Enter mailId"
+                android:gravity="center"
+                android:layout_below="@+id/phone_number"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/address"
+                android:hint="Enter address"
+                android:gravity="center"
+                android:layout_below="@+id/mailId"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Tomato_local_500g_35rs"
+                android:hint="Enter the no. of quantity with the specified weight Tomato_local_500g_35rs"
+                android:gravity="center"
+                android:layout_below="@+id/address"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Onion_1kg_32rs"
+                android:hint="Enter the no. of quantity with the specified weight Onion_1kg_32rs"
+                android:gravity="center"
+                android:layout_below="@+id/Tomato_local_500g_35rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Watermelon_1pc_59rs"
+                android:hint="Enter the no. of quantity with the specified weight Watermelon_1pc_59rs"
+                android:gravity="center"
+                android:layout_below="@+id/Onion_1kg_32rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Amla_1kg_150rs"
+                android:hint="Enter the no. of quantity with the specified weight Amla_1kg_150rs"
+                android:gravity="center"
+                android:layout_below="@+id/Watermelon_1pc_59rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Carrot_500g_53rs"
+                android:hint="Enter the no. of quantity with the specified weight Carrot_500g_53rs"
+                android:gravity="center"
+                android:layout_below="@+id/Amla_1kg_150rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Potato_1kg_42rs"
+                android:hint="Enter the no. of quantity with the specified weight Potato_1kg_42rs"
+                android:gravity="center"
+                android:layout_below="@+id/Carrot_500g_53rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Chilli_100g_18rs"
+                android:hint="Enter the no. of quantity with the specified weight Chilli_100g_18rs"
+                android:gravity="center"
+                android:layout_below="@+id/Potato_1kg_42rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Ginger_250g_64rs"
+                android:hint="Enter the no. of quantity with the specified weight Ginger_250g_64rs"
+                android:gravity="center"
+                android:layout_below="@+id/Chilli_100g_18rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Cucumber_500g_30rs"
+                android:hint="Enter the no. of quantity with the specified weight Ginger_250g_64rs"
+                android:gravity="center"
+                android:layout_below="@+id/Ginger_250g_64rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Garlic_250g_42rs"
+                android:hint="Enter the no. of quantity with the specified weight Garlic_250g_42rs"
+                android:gravity="center"
+                android:layout_below="@+id/Cucumber_500g_30rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Tomato_hybrid_1kg_50rs"
+                android:hint="Enter the no. of quantity with the specified weight Tomato_hybrid_1kg_50rs"
+                android:gravity="center"
+                android:layout_below="@+id/Garlic_250g_42rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Beetroot_500g_41rs"
+                android:hint="Enter the no. of quantity with the specified weight Beetroot_500g_41rs"
+                android:gravity="center"
+                android:layout_below="@+id/Tomato_hybrid_1kg_50rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Coconut_1pc_32rs"
+                android:hint="Enter the no. of quantity with the specified weight Coconut_1pc_32rs"
+                android:gravity="center"
+                android:layout_below="@+id/Beetroot_500g_41rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Coccinia_250g_17rs"
+                android:hint="Enter the no. of quantity with the specified weight Coccinia_250g_17rs"
+                android:gravity="center"
+                android:layout_below="@+id/Coconut_1pc_32rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Beans_500g_88rs"
+                android:hint="Enter the no. of quantity with the specified weight Beans_500g_88rs"
+                android:gravity="center"
+                android:layout_below="@+id/Coccinia_250g_17rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Muskmelon_1pc_59rs"
+                android:hint="Enter the no. of quantity with the specified weight Muskmelon_1pc_59rs"
+                android:gravity="center"
+                android:layout_below="@+id/Beans_500g_88rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Pomegranate_500g_77rs"
+                android:hint="Enter the no. of quantity with the specified weight Pomegranate_500g_77rs"
+                android:gravity="center"
+                android:layout_below="@+id/Muskmelon_1pc_59rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/BottleGourd_1pc_35rs"
+                android:hint="Enter the no. of quantity with the specified weight BottleGourd_1pc_35rs"
+                android:gravity="center"
+                android:layout_below="@+id/Pomegranate_500g_77rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Turmeric_250g_15rs"
+                android:hint="Enter the no. of quantity with the specified weight Turmeric_250g_15rs"
+                android:gravity="center"
+                android:layout_below="@+id/BottleGourd_1pc_35rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Pumpkin_1pc_56rs"
+                android:hint="Enter the no. of quantity with the specified weight Pumpkin_1pc_56rs"
+                android:gravity="center"
+                android:layout_below="@+id/Turmeric_250g_15rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/AloeVera_1pc_48rs"
+                android:hint="Enter the no. of quantity with the specified weight AloeVera_1pc_48rs"
+                android:gravity="center"
+                android:layout_below="@+id/Pumpkin_1pc_56rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/BeansBroad_500g_58rs"
+                android:hint="Enter the no. of quantity with the specified weight BeansBroad_500g_58rs"
+                android:gravity="center"
+                android:layout_below="@+id/AloeVera_1pc_48rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Bananaraw_250g_20rs"
+                android:hint="Enter the no. of quantity with the specified weight Bananaraw_250g_20rs"
+                android:gravity="center"
+                android:layout_below="@+id/BeansBroad_500g_58rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/BeansFrenchring_250g_39rs"
+                android:hint="Enter the no. of quantity with the specified weight BeansFrenchring_250g_39rs"
+                android:gravity="center"
+                android:layout_below="@+id/Bananaraw_250g_20rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/CapsicumGreen250g_28rs"
+                android:hint="Enter the no. of quantity with the specified weight CapsicumGreen250g_28rs"
+                android:gravity="center"
+                android:layout_below="@+id/BeansFrenchring_250g_39rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Cauliflower_1pc_66rs"
+                android:hint="Enter the no. of quantity with the specified weight Cauliflower_1pc_66rs"
+                android:gravity="center"
+                android:layout_below="@+id/CapsicumGreen250g_28rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Babypotato_500g_41rs"
+                android:hint="Enter the no. of quantity with the specified weight Babypotato_500g_41rs"
+                android:gravity="center"
+                android:layout_below="@+id/Cauliflower_1pc_66rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Pineapple_1pc_89rs"
+                android:hint="Enter the no. of quantity with the specified weight Pineapple_1pc_89rs"
+                android:gravity="center"
+                android:layout_below="@+id/Babypotato_500g_41rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/BeansCluster_250g_19rs"
+                android:hint="Enter the no. of quantity with the specified weight BeansCluster_250g_19rs"
+                android:gravity="center"
+                android:layout_below="@+id/Pineapple_1pc_89rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/CucumberMalabar_1kg_34rs"
+                android:hint="Enter the no. of quantity with the specified weight CucumberMalabar_1kg_34rs"
+                android:gravity="center"
+                android:layout_below="@+id/BeansCluster_250g_19rs"
+                android:layout_marginTop="10dp"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/CapsicumYellow_1pc_75rs"
+                android:hint="Enter the no. of quantity with the specified weight CapsicumYellow_1pc_75rs"
+                android:gravity="center"
+                android:layout_below="@+id/CucumberMalabar_1kg_34rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/CapsicumRed_1pc_77rs"
+                android:hint="Enter the no. of quantity with the specified weight CapsicumRed_1pc_77rs"
+                android:gravity="center"
+                android:layout_below="@+id/CapsicumYellow_1pc_75rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Colocasia_250g_36rs"
+                android:hint="Enter the no. of quantity with the specified weight Colocasia_250g_36rs"
+                android:gravity="center"
+                android:layout_below="@+id/CapsicumRed_1pc_77rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/NeemGiloy_100g_22rs"
+                android:hint="Enter the no. of quantity with the specified weight NeemGiloy_100g_22rs"
+                android:gravity="center"
+                android:layout_below="@+id/Colocasia_250g_36rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/LadiesFinger_500g_34rs"
+                android:hint="Enter the no. of quantity with the specified weight LadiesFinger_500g_34rs"
+                android:gravity="center"
+                android:layout_below="@+id/NeemGiloy_100g_22rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Cabbage_1pc_27rs"
+                android:hint="Enter the no. of quantity with the specified weight Cabbage_1pc_27rs"
+                android:gravity="center"
+                android:layout_below="@+id/LadiesFinger_500g_34rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Lemon_4pc_48rs"
+                android:hint="Enter the no. of quantity with the specified weight Lemon_4pc_48rs"
+                android:gravity="center"
+                android:layout_below="@+id/Cabbage_1pc_27rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/SweetLime_500g_68rs"
+                android:hint="Enter the no. of quantity with the specified weight SweetLime_500g_68rs"
+                android:gravity="center"
+                android:layout_below="@+id/Lemon_4pc_48rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/SambarOnion_250g_25rs"
+                android:hint="Enter the no. of quantity with the specified weight SambarOnion_250g_25rs"
+                android:gravity="center"
+                android:layout_below="@+id/SweetLime_500g_68rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/BananaFlower_1pc_16rs"
+                android:hint="Enter the no. of quantity with the specified weight BananaFlower_1pc_16rs"
+                android:gravity="center"
+                android:layout_below="@+id/SambarOnion_250g_25rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/MangoAlphonso_6pc_552rs"
+                android:hint="Enter the no. of quantity with the specified weight MangoAlphonso_6pc_552rs"
+                android:gravity="center"
+                android:layout_below="@+id/BananaFlower_1pc_16rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/BitterGourd_250g_35rs"
+                android:hint="Enter the no. of quantity with the specified weight BitterGourd_250g_35rs"
+                android:gravity="center"
+                android:layout_below="@+id/MangoAlphonso_6pc_552rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/CorianderLeaves_250g_88rs"
+                android:hint="Enter the no. of quantity with the specified weight CorianderLeaves_250g_88rs"
+                android:gravity="center"
+                android:layout_below="@+id/BitterGourd_250g_35rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/CurryLeaves_100g_8rs"
+                android:hint="Enter the no. of quantity with the specified weight CurryLeaves_100g_8rs"
+                android:gravity="center"
+                android:layout_below="@+id/CorianderLeaves_250g_88rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Celery_250g_18rs"
+                android:hint="Enter the no. of quantity with the specified weight Celery_250g_18rs"
+                android:gravity="center"
+                android:layout_below="@+id/CurryLeaves_100g_8rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/PeaEggplantSundaikai_100g_15rs"
+                android:hint="Enter the no. of quantity with the specified weight PeaEggplantSundaikai_100g_15rs"
+                android:gravity="center"
+                android:layout_below="@+id/Celery_250g_18rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/RawMango_1kg_39rs"
+                android:hint="Enter the no. of quantity with the specified weight RawMango_1kg_39rs"
+                android:gravity="center"
+                android:layout_below="@+id/PeaEggplantSundaikai_100g_15rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/Broccoli_500g_95rs"
+                android:hint="Enter the no. of quantity with the specified weight Broccoli_500g_95rs"
+                android:gravity="center"
+                android:layout_below="@+id/RawMango_1kg_39rs"
+                android:layout_marginTop="10dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/SweetCorn_1pc_14rs"
+                android:hint="Enter the no. of quantity with the specified weight SweetCorn_1pc_14rs"
+                android:gravity="center"
+                android:layout_below="@+id/Broccoli_500g_95rs"
+                android:layout_marginTop="10dp"/>
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/submit"
+        android:layout_below="@id/SweetCorn_1pc_14rs"
+        android:text="Place order"
+        android:onClick="nxt"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>
+
+    </LinearLayout>
+
+
+    </ScrollView>

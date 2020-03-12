@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:padding="5dp">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        android:orientation="vertical" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main17Activity"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter your farm details"
+        android:id="@+id/textview"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:layout_marginTop="0dp"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameEditText"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="35dp"
+        android:hint="Enter name"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/phnoEditText"
+        android:layout_below="@+id/nameEditText"
+        android:layout_marginTop="35dp"
+        android:hint="Enter phno"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mailEditText"
+        android:layout_below="@+id/phnoEditText"
+        android:layout_marginTop="35dp"
+        android:hint="Enter mailId"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addressEditText"
+        android:layout_below="@+id/mailEditText"
+        android:layout_marginTop="35dp"
+        android:hint="Enter address"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/areaEditText"
+        android:layout_below="@+id/addressEditText"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Area"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/cropEditText"
+        android:layout_below="@+id/areaEditText"
+        android:layout_marginTop="20dp"
+        android:hint="Enter crop"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/stageEditText"
+        android:layout_below="@+id/cropEditText"
+        android:layout_marginTop="20dp"
+        android:hint="Enter stage"
+        android:gravity="center"/>
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/locationEditText"
+        android:layout_below="@+id/stageEditText"
+        android:layout_marginTop="20dp"
+        android:hint="Enter location"
+        android:gravity="center"/>
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:id="@+id/ShowImageView"
+        android:layout_below="@+id/locationEditText"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonChooseImage"
+        android:layout_below="@+id/ShowImageView"
+        android:layout_marginTop="20dp"
+        android:text="Choose Image"/>
+
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ButtonUploadImage"
+        android:layout_below="@+id/ButtonChooseImage"
+        android:layout_marginTop="20dp"
+                android:text="add farm"/>
+
+</RelativeLayout>
+    </LinearLayout>
+</ScrollView>

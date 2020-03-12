@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:padding="5dp">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        android:orientation="vertical" >
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".Main19Activity"
+            android:layout_margin="10dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Enter your shop details"
+                android:id="@+id/textview"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:gravity="center"
+                android:layout_marginTop="0dp"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ownernameEditText"
+                android:layout_below="@+id/textView"
+                android:layout_marginTop="35dp"
+                android:hint="Enter owner name"
+                android:gravity="center"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/phnoEditText"
+                android:layout_below="@+id/ownernameEditText"
+                android:layout_marginTop="35dp"
+                android:hint="Enter phno"
+                android:gravity="center"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mailEditText"
+                android:layout_below="@+id/phnoEditText"
+                android:layout_marginTop="35dp"
+                android:hint="Enter mailId"
+                android:gravity="center"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/shopaddressEditText"
+                android:layout_below="@+id/mailEditText"
+                android:layout_marginTop="35dp"
+                android:hint="Enter shop address"
+                android:gravity="center"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/areaEditText"
+                android:layout_below="@+id/shopaddressEditText"
+                android:layout_marginTop="20dp"
+                android:hint="Enter Area"
+                android:gravity="center"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/producesEditText"
+                android:layout_below="@+id/areaEditText"
+                android:layout_marginTop="20dp"
+                android:hint="Enter produces (eg. tomato,onion,brinjal)"
+                android:gravity="center"/>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/shopnameEditText"
+                android:layout_below="@+id/producesEditText"
+                android:layout_marginTop="35dp"
+                android:hint="Enter shop name"
+                android:gravity="center"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/locationEditText"
+                android:layout_below="@+id/shopnameEditText"
+                android:layout_marginTop="20dp"
+                android:hint="Enter location"
+                android:gravity="center"/>
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:id="@+id/ShowImageView"
+                android:layout_below="@+id/locationEditText"
+                android:layout_marginTop="20dp"/>
+
+            <Button
+                android:id="@+id/ButtonChooseImage"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ShowImageView"
+                android:layout_marginTop="200dp"
+                android:text="add shop image" />
+
+
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ButtonUploadImage"
+                android:layout_below="@+id/ButtonChooseImage"
+                android:layout_marginTop="20dp"
+                android:text="add shop"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>

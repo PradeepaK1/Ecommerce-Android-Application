@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main16Activity">
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="406dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:background="#dcdcdc"
+
+        android:paddingRight="25dp"
+        android:text="Hi User!!!"
+        android:textAlignment="center"
+        android:textColor="#008000"
+        android:textSize="16dp" />
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="201dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:background="#dcdcdc"
+
+        android:paddingRight="25dp"
+        android:text="My farm "
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="201dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textView10"
+        android:layout_marginLeft="50dp"
+        android:background="#dcdcdc"
+        android:paddingRight="25dp"
+        android:text="(Add your farm)"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="100dp"
+        android:layout_toRightOf="@+id/textView10"
+        android:layout_weight="1"
+        android:background="#008000"
+        android:drawableLeft="@drawable/afg"
+        android:onClick="farm"
+        android:textSize="12dp" />
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="201dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp"
+        android:paddingRight="25dp"
+
+        android:text="My orders"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:background="#dcdcdc"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="201dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textView12"
+        android:layout_marginLeft="50dp"
+        android:background="#dcdcdc"
+        android:layout_marginTop="-1dp"
+        android:paddingRight="25dp"
+        android:text="(Order History)"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:onClick="cart"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="200dp"
+        android:layout_toRightOf="@+id/textView16"
+        android:layout_weight="1"
+        android:background="#008000"
+        android:drawableLeft="@drawable/afg"
+        android:textSize="12dp" />
+
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="201dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="300dp"
+        android:paddingRight="25dp"
+
+        android:text="My Shop "
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:background="#dcdcdc"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="201dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textView14"
+        android:layout_marginLeft="50dp"
+        android:background="#dcdcdc"
+        android:layout_marginTop="-1dp"
+        android:paddingRight="25dp"
+        android:text="(Sell produce)"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="300dp"
+        android:layout_toRightOf="@+id/textView14"
+        android:layout_weight="1"
+        android:onClick="shop"
+        android:background="#008000"
+        android:drawableLeft="@drawable/afg"
+        android:textSize="12dp" />
+
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="201dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="400dp"
+        android:paddingRight="25dp"
+
+        android:text="Supplier Account"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:background="#dcdcdc"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="201dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textView16"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-1dp"
+        android:background="#dcdcdc"
+        android:paddingRight="25dp"
+        android:text="(for equipment provider)"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="400dp"
+        android:layout_toRightOf="@+id/textView16"
+        android:layout_weight="1"
+        android:onClick="supplier"
+        android:background="#008000"
+       android:drawableLeft="@drawable/afg"
+        android:textSize="12dp" />
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="201dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/textView16"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="-1dp"
+        android:background="#dcdcdc"
+        android:paddingRight="25dp"
+        android:text="(for users with multiple roles)"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16dp" />
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="70dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="400dp"
+        android:layout_toRightOf="@+id/textView16"
+        android:layout_weight="1"
+        android:onClick="multi_role"
+        android:background="#008000"
+        android:drawableLeft="@drawable/afg"
+        android:textSize="12dp" />
+    <Button
+        android:id="@+id/signout"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="470dp"
+        android:text="LogOut" />
+
+</RelativeLayout>
